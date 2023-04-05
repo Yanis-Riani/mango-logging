@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
 export default async function handler(req, res) {
-  const client = new MongoClient('mongodb+srv://Yanis:YanisMDP@cluster0.ksinxhv.mongodb.net/?retryWrites=true&w=majority');
+  const client = new MongoClient('ADD your MangoDB string connection here');
 
   if (req.method === 'GET') {
     try {
